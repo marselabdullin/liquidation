@@ -103,3 +103,6 @@ header {
 .menu li + li {
     padding-left: 10px;
 }
+#modal {
+    display: none;
+}
