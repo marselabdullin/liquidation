@@ -673,3 +673,7 @@ header {
     background-color: #ffc222;
     border: none;
 }
+.header__btn-menu{
+    display: none;
+    font-size: 28px;
+}
