@@ -426,3 +426,53 @@ header {
 .form__box-inner .jq-selectbox li.option {
 	padding-left: 25px;
 }
+.advantages {
+    padding: 55px 0px 40px;
+    background-image: url(../img/advantages-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 285px;
+}
+.advantages__inner {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.advantages__item {
+    max-width: 360px;
+    padding: 0px 20px;
+}
+.advantages__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 18px;
+    padding: 60px 0px 15px;
+    position: relative;
+}
+.advantages__text {
+    line-height: 24px;
+    color: #d3d2d2;
+    letter-spacing: 0.1px;
+}
+.advantages__title:before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffc222;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.advantages__title:after {
+    content: "\f00c";
+    font-family: 'icomoon' !important;
+    font-size: 14px;
+    position: absolute;
+    top: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+}
